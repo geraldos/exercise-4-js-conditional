@@ -19,8 +19,10 @@ let number2 = Number(prompt('please write number here ..'))
 
 if (number1 >= number2) {
     console.log('Nilai number 1 lebih besar daripada number 2')
-} else {
+} else if (number1 <= number2) {
     console.log('Nilai number 2 lebih besar daripada number 1')
+} else {
+    console.log('Nilai number 2 sama dengan number 1')
 }
 
 //soal no.3
